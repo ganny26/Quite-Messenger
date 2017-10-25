@@ -33,6 +33,7 @@ public class TransmitActivity extends AppCompatActivity {
         findViewById(R.id.transmit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 handleSendClick();
             }
         });
