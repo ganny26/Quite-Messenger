@@ -31,7 +31,7 @@ public class ReceiveActivity extends AppCompatActivity {
     private static final String TAG="Receive Activity";
     private TextView receivedContent;
     private Spinner profileSpinner;
-
+    private TextView emptyView;
     private ArrayList<MessageObject> mDataList = new ArrayList<MessageObject>();
     private ArrayAdapter<String> spinnerArrayAdapter;
     private TextView receiveStatus;
@@ -55,6 +55,7 @@ public class ReceiveActivity extends AppCompatActivity {
     }
 
     public void setupadapter(){
+        //emptyView = (TextView) findViewById(R.id.empty_view) ;
         ArrayList<MessageObject> arrlist = new ArrayList<MessageObject>();
         MessageObject messageObject = new MessageObject("Hello","123123");
         arrlist.add(messageObject);
