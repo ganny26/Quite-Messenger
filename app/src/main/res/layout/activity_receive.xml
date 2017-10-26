@@ -10,12 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="8dp">
+        android:padding="16dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select your sound wave " />
+            android:text="Select your sound wave mode" />
 
         <Spinner
             android:id="@+id/profile"
@@ -29,14 +29,7 @@
             android:layout_height="match_parent">
 
         </android.support.v7.widget.RecyclerView>
-        <!--<TextView-->
-            <!--android:id="@+id/empty_view"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:gravity="center"-->
-            <!--android:visibility="gone"-->
-            <!--android:text="Start sending messages to see here !"-->
-            <!--/>-->
+
     </LinearLayout>
 
 
