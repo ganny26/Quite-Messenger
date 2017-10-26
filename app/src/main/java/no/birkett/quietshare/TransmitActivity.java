@@ -60,7 +60,7 @@ public class TransmitActivity extends AppCompatActivity {
             transmitterConfig = new FrameTransmitterConfig(
                     this,getProfile());
             transmitter = new FrameTransmitter(transmitterConfig);
-            Log.i(TAG,"Trasnmitted..."+transmitter.toString());
+            Log.i(TAG,"Transmitted..."+transmitter.toString());
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (ModemException e) {
