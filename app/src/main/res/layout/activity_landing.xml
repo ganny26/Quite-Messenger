@@ -96,6 +96,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/receive_money"
             android:layout_gravity="left"
             android:layout_weight="0.5"
             android:layout_marginRight="120dp"
