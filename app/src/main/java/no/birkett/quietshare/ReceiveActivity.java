@@ -57,7 +57,7 @@ public class ReceiveActivity extends AppCompatActivity {
     public void setupadapter(){
         //emptyView = (TextView) findViewById(R.id.empty_view) ;
         ArrayList<MessageObject> arrlist = new ArrayList<MessageObject>();
-        MessageObject messageObject = new MessageObject("Hello","123123");
+        MessageObject messageObject = new MessageObject("Received text appears here","Send messages from other mobile");
         arrlist.add(messageObject);
         linearLayoutManager = new LinearLayoutManager(this);
         transmitAdapter = new TransmitAdapter(arrlist);
