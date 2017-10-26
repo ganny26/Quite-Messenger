@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,8 +8,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="no.birkett.quietshare.MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Send Message from here Keep your mobile devices near"/>
     <Spinner
         android:id="@+id/profile"
         android:layout_width="match_parent"
@@ -20,14 +26,15 @@
         android:gravity="top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Message to send"
+        android:hint="Type message here !"
         android:layout_below="@id/profile"/>
 
     <Button
         android:id="@+id/transmit"
+        android:layout_gravity="center"
         android:layout_below="@id/message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_transmit"/>
 
-</RelativeLayout>
+</LinearLayout>
