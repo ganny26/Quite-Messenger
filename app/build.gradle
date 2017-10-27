@@ -40,4 +40,8 @@ dependencies {
     compile 'io.reactivex:rxjava:1.2.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+    // https://mvnrepository.com/artifact/com.google.zxing/core
+    compile group: 'com.google.zxing', name: 'core', version: '3.2.1'
+
+
 }
